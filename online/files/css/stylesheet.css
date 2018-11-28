@@ -1,0 +1,280 @@
+@charset "utf-8";
+#pup {
+	position: absolute;
+	z-index: 200; /* aaaalways on top*/
+	padding: 3px;
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 300px;
+	border: 1px solid black;
+	background-color: #777;
+	color: white;
+	font-size: 1.3em;
+	text-align: left;
+}
+body {
+	text-align: center;
+	background-image: url(bg.png);
+}
+
+#form1 {
+
+
+}
+#container {
+	width: 955px;
+	margin-right: auto;
+	text-align: left;
+	margin-left: auto;
+	font-size: 1.5em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+fieldset {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	margin-top: 10px;
+	border-top-color: #666;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+}
+legend {
+	/*font-weight: bold;*/
+}
+fieldset p {
+	margin-left: 30px;
+}
+fieldset table {
+	padding-left: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+textarea {
+	margin-left: 30px;
+	margin-top: 5px;
+	border: thin solid #666;
+}
+label {
+	margin-bottom: 100px;
+}
+.validate {
+	margin-bottom: 20px;
+}
+
+
+.singleline {
+	margin-top: 5px;
+	margin-left: 30px;
+	border: thin solid #666;
+}
+#wraper {
+	width: 955px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	/* [disabled]padding-bottom: 50px; */
+	background-color: #FFF;
+	box-shadow: 10px 10px 5px #888888;
+}
+#send {
+	height: 50px;
+	width: 120px;
+	margin-left: 50px;
+	font-size: 1.26em;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+#header {
+	background-attachment: fixed;
+	height: 80px;
+	background-color: #FFF;
+}
+#footer {
+	background-attachment: fixed;
+	height: 55px;
+	background-color: #FFF;
+	margin-top: 50px;
+}
+.text-input {
+	margin-left: 30px;
+	margin-top: 5px;
+	border: thin solid #666;
+}
+
+#height {
+	margin-top: 5px;
+	margin-left: 30px;
+	border: thin solid #666;
+}
+
+.star {
+	color: #000;
+}
+
+.top-description {
+font-family: 'Droid Sans', Arial, sans-serif !important;
+line-height: 28px;
+font-size: 18px;
+margin-top: 55px;
+padding-bottom: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.orange {
+color: #e27a38;
+}
+
+
+
+
+/* ----------------------- MILUTIN RESPONSIVE --------------------- */
+
+@media (max-width: 1015px)
+{
+	
+    
+}
+
+@media (max-width: 810px)
+{
+	
+}
+
+
+
+@media (max-width: 650px)
+{
+   
+    
+}
+
+@media (max-width: 500px)
+{
+    
+    #fragebogen-wrapper
+    {
+        display: none;
+    }
+    body
+    {
+        font-size: 16px;
+    }
+    img
+    {
+        float: left;
+		width: auto;
+		max-width: 100%;
+		height: auto;
+    }
+    object 
+    {
+        max-width: 100%;
+        height: auto;
+        min-height: 230px;
+    }
+    input 
+    {
+        font: 16px/100% Verdana,sans-serif;
+    }
+    iframe 
+    {
+        width: auto !important;
+        max-width: 100%;
+        height: auto !important;
+        min-height: 230px;
+    }
+    #menu ul
+    {
+        width: auto !important;
+        max-width: 100%;
+        height: auto;
+    }
+    #menu li, #menu li:hover
+    {
+        padding-left: 0 !important;
+    }
+    #menu
+    {
+        float: left !important;
+        width: auto !important;
+        max-width: 100%;
+        height: auto !important;
+        background-image: none !important;
+        background-color: #3574A9;
+        padding-bottom: 10px;
+
+    }
+    #wraper
+    {
+        float: left;
+        width: auto !important;
+        max-width: 480px;
+        height: auto;
+    }
+    #header
+    {
+        width: auto !important;
+        max-width: 100%;
+        height: auto;
+        float: left;
+    }
+	#footer
+    {
+        width: auto !important;
+        max-width: 100%;
+        height: auto;
+        float: left;
+    }
+    #container
+    {
+        float: left;
+        width: auto;
+        max-width: 306px;
+        height: auto;
+    }
+    input[type="text"]
+    {
+        width: auto;
+        max-width: 290px;
+        height: auto;
+        margin-left: 10px;
+    }
+    textarea
+    {
+        width: auto;
+        max-width: 290px;
+        height: auto;
+        margin-left: 10px;
+    }
+    fieldset
+    {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    label
+    {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+    fieldset p
+    {
+        margin-left: 0;
+    }
+	table
+	{
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+}

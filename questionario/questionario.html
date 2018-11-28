@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Questionario</title>
+
+<script src="files/js/jquery-1.11.2.min.js"></script>
+<script src="files/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="files/js/jquery.min.js"></script>
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="files/css/stylesheet-IE.css" />
+<![endif]-->
+<!--[if !IE]><!-->
+<link rel="stylesheet" type="text/css" href="files/css/stylesheet.css" />
+<!--<![endif]-->
+<link rel="stylesheet" href="files/css/validationEngine.jquery.css" type="text/css"/>
+
+<script type="text/javascript" src="files/js/nhpup_1.1.js"></script>
+<script src="files/js/gen_validatorv4.js" type="text/javascript"></script>
+<script src="files/js/languages/jquery.validationEngine-it.js" type="text/javascript" charset="utf-8">
+	</script>
+	<script src="files/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8">
+	</script>
+    <script>
+		jQuery(document).ready(function(){
+			// binds form submission and fields to the validation engine
+			jQuery("#form1").validationEngine();
+		});
+	</script>
+    <script>
+jQuery(document).ready(function() {
+
+				var prefix = "selectBox_"
+
+				// binds form submission and fields to the validation engine
+				jQuery("#formID").validationEngine({
+					prettySelect : true,
+					usePrefix: prefix
+				});
+
+				$("select").selectBox();
+
+				// By default, selectBox does not create an id to the newly created element - We need to add this manually
+				$('select').each(function(){ 
+					// The jquery validation engine needs an id on the "a" element created by selectBox plugin
+			    $(this).next('a.selectBox')
+			    // Since id needs to be unique, we use a prefix here (can use suffix - up to you)
+			    .attr("id", prefix + this.id )
+			    // By default, all classes are passed on to the new element - Important: We need to remove it
+			    .removeClass("validate[required]");		
+			  })
+			  
+			  // This demo is for hidden elements in the form
+			  $('#hidden_samples').change(function(){
+			    var value = $(this).val();
+			    if (value != '') $('#section_' +value).show().siblings().hide();
+			    else $('#hidden_elements').children().hide();
+			  });
+			  
+			});
+    </script>
+    <script>
+	if ($.browser.msie) {
+
+    // For IE only
+    $('#bluebox').show();
+} else {
+
+    // all other browsers
+    $('#bluebox').hide();
+}
+	</script>
+    
+        
+<style>
+.error_strings{
+	font-family: Verdana;
+	font-size: 14px;
+	color: #F00;
+}
+</style>
+</head>
+
+<body>
+<div class="bluebox" id="bluebox">
+  <div class="wraper" id="wraper">
+    <div class="header" id="header"><img src="files/css/header.jpg" alt="head" width="955" height="79" usemap="#Map"></div>
+    <div class="container" id="container">
+      <form id="form1" name="form1" method="post" action="questprocess.php"> 
+        
+        <fieldset><label>1. Data di nascita:</label>
+          
+          <input class="validate[required] text-input" type="text" name="birth" id="birth">
+          
+        </fieldset>
+		<fieldset><label>2. Genere:</label>
+			<table width="200">
+				<tr>
+					<td><label>
+					<input name="sex" type="radio" class="validate[required] radio" value="Maschio" id="sex_0">
+					Maschio</label></td>        
+					<td><label>
+					<input name="sex" type="radio" class="validate[required] radio" value="Femmina" id="sex_1">
+					Femmina</label></td>
+				</tr>
+			</table>
+		</fieldset>
+        <fieldset><label>3. Qual è il Suo peso, altezza:</label>
+			<br>
+          <input name="weight" type="text" class="validate[required] text-input" id="weight" size="100">          
+        </fieldset>        
+        
+        <fieldset><label>4. Qual è la Sua diagnosi (malattia):</label>
+          <br>
+          <input name="diagnosis" type="text" class="validate[required] text-input" id="diagnosis" size="100">          
+        </fieldset>
+        <fieldset><label>5. Da quanto tempo soffre di malattia indicata?</label>
+          <br>
+          <input name="howlong" type="text" class="validate[required] text-input" id="howlong" size="100">          
+        </fieldset>
+		<fieldset><label>6. Che tipo di farmaci utilizza attualmente?</label>
+          <br>
+          <input name="medications" type="text" class="validate[required] text-input" id="medications" size="100">          
+        </fieldset>
+        <fieldset><label>7. Ha (o ha avuto in passato) altre malattie coesistenti?</label>
+          <br>
+          <input name="headinjury" type="text" class="validate[required] text-input" id="headinjury" size="100">          
+        </fieldset>
+        <fieldset><label>8. Soffre di malattia di uno dei seguenti organi:</label>
+          <p>
+            <label for="hearttxt">a) Cuore:</label>
+          </p>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input name="heart" type="radio" class="validate[required] radio" value="Sì" id="heart_0">
+              Sì</label></td>        
+              <td><label>
+                <input name="heart" type="radio" class="validate[required] radio" value="no" id="heart_1">
+              No</label></td>
+            </tr>
+          </table>
+          <p> 
+            <textarea  name="hearttxt" cols="100" rows="3" id="Heart"></textarea>
+            
+          </p>
+          <p>
+            <label for="lungstxt">b) Polmoni:</label>
+          </p>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="lungs" value="Sì" id="lungs_0">
+              Sì</label></td>
+              
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="lungs" value="no" id="lungs_1">
+              No</label></td>
+            </tr>
+          </table>
+          <p>
+            <textarea name="lungstxt" cols="100" rows="3" id="Lungs"></textarea>
+          </p>
+          <p>
+            <label for="livertxt">c) Fegato:</label>
+          </p>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="liver" value="Sì" id="liver_0">
+                Sì</label></td>
+              
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="liver" value="no" id="liver_1">
+                No</label></td>
+            </tr>
+          </table>
+          <p>
+            <textarea name="livertxt" cols="100" rows="3" id="Liver"></textarea>
+          </p>
+          <p>
+            <label for="digestivetxt">d) Apparato digerente:</label>
+          </p>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="digestive" value="Sì" id="digestive_0">
+                Sì</label></td>
+              
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="digestive" value="no" id="digestive_1">
+                No</label></td>
+            </tr>
+          </table>
+          <p>
+            <textarea name="digestivetxt" cols="100" rows="3" id="Digestive"></textarea>    
+          </p>
+		  <p>
+            <label for="musculartxt">e) Sistema Muscolare:</label>
+          </p>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="muscular" value="Sì" id="muscular_0">
+                Sì</label></td>
+              
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="muscular" value="no" id="muscular_1">
+                No</label></td>
+            </tr>
+          </table>
+          <p>
+            <textarea name="musculartxt" cols="100" rows="3" id="muscular"></textarea>    
+          </p>
+          <p>    
+            <label for="other">f) Altro:</label>
+          </p>
+          <p>
+            <textarea name="other" cols="100" rows="3" id="Other"></textarea>
+            
+          </p>
+        </fieldset>
+        <fieldset><label>9. Si prega di descrivere se ha dei problemi relativi a: respirazione, movimenti, parlare, dormire, ... </label>
+          <textarea name="problemstxt" class="validate[required] text-input" cols="100" rows="3" id="problems"></textarea>
+          
+        </fieldset>
+        <fieldset><label>10. Ha bisogno di assistenza per svolgere le attività giornaliere?</label>
+          <table width="200">
+            <tr>
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="assistance" value="Sì" id="assistance_0">
+              Sì</label></td>
+              
+              <td><label>
+                <input class="validate[required] radio" type="radio" name="assistance" value="no" id="assistance_1">
+              No</label></td>
+            </tr>
+          </table>
+        </fieldset>
+		<fieldset><label>11. E’ allergico/a a qualcosa?</label>
+          <textarea name="allergytxt" class="validate[required] text-input" cols="100" rows="3" id="allergy"></textarea>
+        </fieldset>
+		<fieldset><label>12. E’ stato trattato/a con cellule staminali prima?</label>
+			<textarea name="treatedtxt" class="validate[required] text-input" cols="100" rows="3" id="treated"></textarea>
+		</fieldset>		
+		
+        <fieldset><label>13. Nome e Cognome:</label>
+          <br>
+          <input name="name" type="text" class="text-input" id="name" size="100" /><!--onmouseover="nhpup.popup('Unesite svoje ime. Polje je obavezno!')" size="100" />-->    
+        </fieldset>
+		<fieldset><label>14. Telefono:</label>
+          <br>
+          <input name="phone" type="text" class="text-input" id="phone" />
+        </fieldset>
+        <fieldset><label>15. Indirizzo ed e-mail:</label>
+          <br>        
+          <input name="mail" type="text" class="validate[required,custom[email]] text-input" id="mail" size="100" />
+        </fieldset>
+        
+        
+        
+        <input name="send" type="submit" id="send" value="Invia">
+      </form>
+      
+      
+    </div>
+	<div class="footer" id="footer"><img src="files/css/footer.jpg" alt="footer" width="955" height="54" usemap="#Map2">
+      <map name="Map2">
+        <area shape="rect" coords="17,12,183,45" href="http://www.mstreatment-europe.com">
+      </map>
+      <map name="Map">
+        <area shape="rect" coords="19,23,213,64" href="http://www.mstreatment-europe.com" alt="startstemcells">
+      </map>
+    </div>
+  </div>
+</div> 
+</body>
+</html>

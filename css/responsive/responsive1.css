@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+	.navbar-toggle.call_mobile {
+    float: left;
+    margin-top: 45px;
+	margin-left:3px;
+	border: none;
+	padding: 0;
+	}
+	.navbar-brand{
+		margin-left: 10px !important;
+		margin-right: 0!important;
+	}
+	.navbar-toggle.collapsed {
+		margin-left: 10px !important;
+	}
+}

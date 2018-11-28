@@ -1,0 +1,59 @@
+[17-Jul-2018 10:46:56 UTC] PHP Fatal error:  Call to undefined function CheckCurlResponse() in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact_add.php on line 323
+[17-Jul-2018 10:51:21 UTC] PHP Fatal error:  Call to undefined function CheckCurlResponse() in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact_add.php on line 344
+[17-Jul-2018 10:51:50 UTC] PHP Fatal error:  Call to undefined function CheckCurlResponse() in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact_add.php on line 344
+[17-Jul-2018 10:51:58 UTC] PHP Fatal error:  Call to undefined function CheckCurlResponse() in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact_add.php on line 344
+[17-Jul-2018 10:52:52 UTC] PHP Fatal error:  Call to undefined function CheckCurlResponse() in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact_add.php on line 413
+[17-Jul-2018 12:05:52 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 43
+[17-Jul-2018 12:06:41 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 75
+[17-Jul-2018 12:08:50 UTC] PHP Fatal error:  Call to undefined method Contact::account_current() in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 45
+[17-Jul-2018 12:09:26 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 118
+[17-Jul-2018 12:13:23 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 205
+[17-Jul-2018 12:13:58 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 581
+[17-Jul-2018 12:14:26 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 581
+[17-Jul-2018 12:15:25 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 583
+[17-Jul-2018 12:16:27 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 583
+[17-Jul-2018 12:17:16 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 585
+[17-Jul-2018 12:17:25 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 585
+[17-Jul-2018 12:17:45 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 587
+[17-Jul-2018 12:18:10 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 585
+[17-Jul-2018 12:18:47 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 586
+[17-Jul-2018 12:19:07 UTC] PHP Fatal error:  Cannot access empty property in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 586
+[17-Jul-2018 12:40:57 UTC] PHP Fatal error:  Call to undefined method Contact::contact_add() in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 49
+[18-Jul-2018 07:19:42 UTC] PHP Fatal error:  Call to undefined method Contact::send_mail() in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 41
+[18-Jul-2018 07:20:59 UTC] PHP Fatal error:  Call to undefined method Contact::send_mail() in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 41
+[18-Jul-2018 07:22:38 UTC] PHP Fatal error:  Call to a member function library() on null in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 665
+[18-Jul-2018 07:23:17 UTC] PHP Fatal error:  Call to a member function post() on null in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 667
+[18-Jul-2018 07:23:56 UTC] PHP Fatal error:  Call to a member function helper() on null in /home/swissme2/msci.swissmedicacrm.com/application/libraries/amo/Contact.php on line 665
+[18-Jul-2018 10:18:10 UTC] PHP Fatal error:  Call to a member function flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 5
+[18-Jul-2018 10:18:18 UTC] PHP Fatal error:  Call to a member function flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 5
+[18-Jul-2018 10:31:00 UTC] PHP Fatal error:  Call to a member function flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 5
+[18-Jul-2018 13:02:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Contact.php on line 36
+[19-Jul-2018 10:35:48 UTC] PHP Fatal error:  Call to a member function initialize() on null in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Testimonials.php on line 49
+[19-Jul-2018 10:36:32 UTC] PHP Fatal error:  Call to a member function galerija() on null in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Testimonials.php on line 57
+[19-Jul-2018 11:00:04 UTC] PHP Fatal error:  Call to undefined function result() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 23
+[19-Jul-2018 11:01:37 UTC] PHP Fatal error:  Call to undefined function result() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 26
+[19-Jul-2018 11:01:39 UTC] PHP Fatal error:  Call to undefined function result() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 26
+[19-Jul-2018 11:10:57 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Testimonials.php on line 58
+[20-Jul-2018 07:53:14 UTC] PHP Fatal error:  Call to undefined method stdClass::next_row() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 07:54:17 UTC] PHP Fatal error:  Call to undefined method stdClass::next_row() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 07:54:20 UTC] PHP Fatal error:  Call to undefined method stdClass::next_row() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 07:54:22 UTC] PHP Fatal error:  Call to undefined method stdClass::next_row() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 07:54:27 UTC] PHP Fatal error:  Call to undefined method stdClass::next_row() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 08:05:17 UTC] PHP Fatal error:  Call to a member function row_array() on null in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 55
+[20-Jul-2018 08:05:58 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row_array() in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 55
+[20-Jul-2018 08:06:28 UTC] PHP Fatal error:  Call to a member function row_array() on array in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 55
+[20-Jul-2018 08:06:31 UTC] PHP Fatal error:  Call to a member function row_array() on array in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 55
+[20-Jul-2018 08:08:27 UTC] PHP Fatal error:  Call to a member function next_row() on null in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 54
+[20-Jul-2018 08:08:27 UTC] PHP Fatal error:  Call to a member function next_row() on null in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 54
+[20-Jul-2018 08:08:40 UTC] PHP Fatal error:  Call to a member function next_row() on array in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 54
+[20-Jul-2018 08:11:51 UTC] PHP Fatal error:  Call to a member function next_row() on array in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 08:12:01 UTC] PHP Fatal error:  Call to a member function next_row() on array in /home/swissme2/msci.swissmedicacrm.com/application/models/Testimonials_Model.php on line 53
+[20-Jul-2018 12:13:02 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Contact.php on line 24
+[20-Jul-2018 12:13:09 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Contact.php on line 24
+[20-Jul-2018 12:40:11 UTC] PHP Fatal error:  Class 'Frontend_Controller' not found in /home/swissme2/msci.swissmedicacrm.com/application/controllers/About.php on line 4
+[20-Jul-2018 12:41:48 UTC] PHP Fatal error:  Class 'Frontend_Controller' not found in /home/swissme2/msci.swissmedicacrm.com/application/controllers/News.php on line 4
+[20-Jul-2018 13:08:27 UTC] PHP Fatal error:  Call to a member function flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 5
+[20-Jul-2018 13:08:41 UTC] PHP Fatal error:  Call to undefined function validation_errors() in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 16
+[20-Jul-2018 13:15:11 UTC] PHP Fatal error:  Call to a member function set_flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Handler.php on line 125
+[23-Jul-2018 09:53:05 UTC] PHP Fatal error:  Call to undefined method CI_Loader::spark() in /home/swissme2/msci.swissmedicacrm.com/application/controllers/Test2.php on line 7
+[23-Jul-2018 09:58:46 UTC] PHP Fatal error:  Call to a member function flashdata() on null in /home/swissme2/msci.swissmedicacrm.com/application/views/contact.php on line 5

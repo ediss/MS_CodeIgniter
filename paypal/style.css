@@ -1,0 +1,57 @@
+html, body, h1, form, fieldset, legend, ol, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ffffff;
+  color: #111111;
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 20px;
+}  
+
+.form {
+  background: #f25254;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+ 
+}
+
+.container {
+  width:100%; 
+  margin-left:auto; 
+  margin-right:auto;
+  
+  }
+  .form-group{
+	  width:50%;
+	  margin-left:auto; 
+	  margin-right:auto;
+	  } 
+ .form-group p{color:#333;font-family: font-family: Verdana, Geneva, sans-serif;font-size: 16px; padding:10px;}
+ 
+  .col-md-8{
+	  margin-left:auto; 
+	  margin-right:auto;
+	  }
+  .form-check{
+	  padding:10px 0px 10px 15px; 
+	  border: 1px solid #ccc; 
+	  border-radius: 4px; 
+	  margin-top: 5px; 
+	  font-family: Verdana, Geneva, sans-serif;
+	  }
+  .col-sm-4.col-sm-offset-4.text-center h2 {
+	  padding:10px; 
+	  border-bottom: 2px solid #ccc; 
+	  color:#f25254;
+	  }
+  .col-sm-4.col-sm-offset-4.text-center .lead{ 
+  color: #333;
+  }
+
+  .paypalbtn{
+    /*border:2px solid silver;
+    width: 25%;*/
+  }
